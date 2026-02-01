@@ -1,4 +1,4 @@
-# AI Hand Gesture Controller 🖐️🖱️
+# Hand Gesture Controller 🖐️🖱️
 
 A futuristic, "Minority Report" inspired interface that transforms your hand into a virtual mouse. Powered by **Python**, **MediaPipe**, and **OpenCV**, this tool delivers a seamless user experience.
 
@@ -10,20 +10,25 @@ A futuristic, "Minority Report" inspired interface that transforms your hand int
 
 Experience a new way to interact with your digital world:
 
--   **👆 Precision Tracking**: High fidelity index finger tracking with EMA smoothing for a jitter free experience.
+-   **👆 Precision Tracking**: High-fidelity index finger tracking with EMA smoothing for a jitter-free experience.
 -   **🖱️ Intuitive Gestures**:
     -   **Move**: Simply point your **Index Finger**.
     -   **Left Click**: Pinch **Index Finger** + **Thumb**.
     -   **Right Click**: Pinch **Middle Finger** + **Thumb**.
     -   **Scroll Mode**: Raise both **Index** & **Middle Fingers** and move your hand vertically.
 -   **🛡️ FailSafe Protocol**: Instantly terminate the session by moving your hand to any screen corner.
--   **📊 Live HUD**: Real time FPS monitoring and current gesture mode display.
+-   **📊 Live HUD**: Real-time FPS monitoring and current gesture mode display.
 
 ## 🛠️ Quick Start
 
 ### 1. Installation
 
 Clone the repo and set up your environment:
+
+```bash
+# Clone
+git clone https://github.com/Arnav-SAI/Hand-Gesture-Controller
+cd hand-gesture-controls
 
 # Virtual Env (Recommended)
 python3 -m venv .venv
